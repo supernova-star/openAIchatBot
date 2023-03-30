@@ -1,0 +1,57 @@
+.chat-message {
+  min-height: 76vh;
+  max-height: 76vh;
+  overflow: auto;
+  padding: 10px;
+  .msg {
+    display: flex;
+    width: 60vw;
+    min-height: 40px;
+    border-radius: 10px;
+    text-align: left;
+    .chatGPTAvatar {
+      width: 40px;
+      height: 40px;
+      margin: 5px 10px;
+      border-radius: 50%;
+    }
+    .myAvatar {
+      margin: 0px 5px;
+    }
+  }
+  .me {
+    float: right;
+    clear: both;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .gpt {
+    align-items: flex-start;
+    justify-content: flex-start;
+    float: left;
+    clear: both;
+    p{
+      margin:0px;
+    }
+    pre {
+      border-radius: 10px;
+      padding: 15px;
+      background-color: #fff;;
+      overflow: auto;
+      color: #222;
+    }//00BFFF
+    code {
+      color: #0090c0;
+      background-color: #fff; // #D4F1F4;
+    }
+  }
+  
+}
+.chat-input {
+  width: 100%;
+  font-size: 1em;
+  background-color: white;
+  text-decoration: none;
+}
+
+//Write a code snippet for simple functional component in javascript

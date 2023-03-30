@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  .chat {
+    // margin: 1em 0;
+    border-radius: 0px;
+  }
+  .chatModel {
+    width: 25vw;
+    // background-color: rgb(250, 249, 248);
+    border-right: 1px solid rgba(0, 0, 0, 0.12);;
+    .eachConv {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .chatContainer {
+    width: 100%;
+    // background-color: rgb(250, 249, 248);
+    // padding: 1em;
+  }
+}
